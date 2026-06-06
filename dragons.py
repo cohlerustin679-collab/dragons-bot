@@ -37,8 +37,9 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
 
     if text == "JAR 🟠":
-        await update.message.reply_photo(
-            photo=JAR_IMAGE,
+    await update.message.reply_text(
+        "JAR\n\nhttps://t.me/+jQQHJsHr54oxYzcy"
+    )
             caption="JAR\n\nhttps://t.me/+jQQHJsHr54oxYzcy"
         )
 
