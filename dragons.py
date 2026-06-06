@@ -1,6 +1,6 @@
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "8733850331:AAG1ZIEUUhuc2t1TnPOtsJOkO6-YGFI-UgE"
+TOKEN =  "8733850331:AAG1ZIEUUhuc2t1TnPOtsJOkO6-YGFI-UgE"
 
 IMAGE_FILE = "/storage/emulated/0/Pictures/AyuGram/IMG_20260605_224549_767.jpg"
 
