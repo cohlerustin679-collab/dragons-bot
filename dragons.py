@@ -33,6 +33,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if text == "JAR 🟠":
         await update.message.reply_text(
             "JAR\n\nhttps://t.me/+jQQHJsHr54oxYzcy"
+        )
      
 
     elif text == "ACP 🔵":
