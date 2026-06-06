@@ -45,7 +45,6 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Labs Chat\n\nhttps://t.me/parmar_Labs"
         )
 
-
 app = Application.builder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
